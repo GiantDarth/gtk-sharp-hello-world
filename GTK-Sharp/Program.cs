@@ -9,11 +9,11 @@ namespace GTK_Sharp
 		{
 			Application.Init();
 
-			Button btn = new Button("Hello World");
-			btn.Clicked += new EventHandler(Hello);
-
 			Window window = new Window("Hello World");
 			window.DeleteEvent += Delete_Event;
+
+			Button btn = new Button("Hello World");
+			btn.Clicked += new EventHandler(Hello);
 
 			window.Add(btn);
 			window.ShowAll();
