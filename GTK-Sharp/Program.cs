@@ -30,7 +30,6 @@ namespace GTK_Sharp
 		static void Hello(object obj, EventArgs args)
 		{
 			Console.WriteLine("Hello World");
-			Application.Quit();
 		}
 	}
 }
